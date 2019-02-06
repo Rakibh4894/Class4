@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Form</title>
+	</head>
+	<body>
+		<h1>Form</h1>
+		First Name: <input type="text" name="first_name" id="firstName"><br><br>
+		Email Address: <input type="text" name="email" id="emailAdd">
+		<br>
+		<hr>
+
+		<table>
+			<form>
+			<tr>
+				<td>First Name:</td>
+				<td><input type="text" name="first_name" id="firstName" placeholder="First Name"></td>
+			</tr>
+			<tr>
+				<td>Second Name:</td>
+				<td><input type="text" name="second_name" id="secondName" placeholder="Second Name"></td>
+			</tr>
+
+			<tr>
+				<td>Email Address:</td>
+				<td><input type="email" name="email" id="emailAdd"></td>
+			</tr>
+			<tr>
+				<td>Password:</td>
+				<td><input type="password" name="password" id="password"></td>
+			</tr>
+			<tr>
+				<td>Address:</td>
+				<td><textarea rows="5" cols="50"></textarea></td>
+			</tr>
+			<tr>
+				<td>Background:</td>
+				<td>
+					Science <input type="checkbox" name="science" id="science">					Commerce <input type="checkbox" name="commerce" id="commerce">
+					Arts <input type="checkbox" name="Arts" id="Arts">
+				</td>
+			</tr>
+			<tr>
+				<td>Gender:</td>
+				<td>
+					Male <input type="radio" name="gender" id="male" value="male" >
+					Female <input type="radio" name="gender" id="female" value="female" >
+					Others <input type="radio" name="gender" id="others" value="others">
+				</td>
+			</tr>
+			<tr>
+				<td>Division</td>
+				<td>
+					<select>
+						<option>--Choose Your Division--</option>
+						<option>Dhaka</option>
+						<option>Rajshahi</option>
+						<option>Khulna</option>
+						<option>Sylhet</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td><input type="reset"></td>
+				<td><input type="submit" name="submit" id="submit"></td>
+			</tr>
+			</form>
+		</table>
+		<hr>
+		<br>
+
+		Date: <input type="date"><br>
+		Month: <input type="month"><br>
+		week: <input type="week"><br>
+		color: <input type="color"><br>
+		range: <input type="range"><br>
+		datetime-local: <input type="datetime-local"><br>
+		Tel: <input type="tel"><br>
+		file: <input type="file"><br><br>
+		
+		<form>
+			<input list="District">
+			<datalist id="District">
+				<option>Dhaka</option>
+				<option>Cumilla</option>
+				<option>Noakhali</option>
+				<option>Chattogram</option>
+				<option>Feni</option>
+			</datalist>
+		</form>
+
+	</body>
+
+</html>
