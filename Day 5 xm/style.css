@@ -1,0 +1,31 @@
+.demo{
+	color: orange;
+	font-family: verdana;
+	font-size: 50px;
+	border: 1px solid black;
+}
+.box1{
+	height: 300px;
+	width: 400px;
+	background-color: red;
+	float: left;
+	margin-right: 10px;
+	padding-top: 140px;
+	text-align: center;
+	box-sizing: border-box;
+	border: 10px dashed black;
+}
+.box2{
+	height: 300px;
+	width: 400px;
+	background-color: gray;
+	float: left;
+}
+.box3{
+	height: 600px;
+	width: 1000px;
+	background-color: skyblue;
+	float: left;
+	margin: 10px 20px 30px 40px;
+}
+
