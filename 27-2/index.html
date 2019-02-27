@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HTML</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+</head>
+
+<body>
+	<form action="" method="post" id="form">
+		<table>
+			<tr>
+				<td>First Name:</td>
+				<td>
+					<input type="text" name="firstname" id="firstName">
+					<span id="firstNameError"></span>
+				</td>
+			</tr>
+			<tr>
+				<td>Last Name:</td>
+				<td>
+					<input type="text" name="lastname" id="lastName">
+					<span id="lastNameError"></span>
+				</td>
+			</tr>
+			<tr>
+				<td>Email:</td>
+				<td>
+					<input type="email" name="email" id="email">
+					<span id="emailError"></span>
+				</td>
+			</tr>
+			<tr>
+				<td>Password:</td>
+				<td>
+					<input type="password" name="password" id="password">
+					<input type="checkbox" id="showHide" name="">Show password
+					<span id="passwordError"></span>
+				</td>
+			</tr>
+			<tr>
+				<td>Confirm Password:</td>
+				<td>
+					<input type="password" name="conpassword" id="conPassword">
+					<input type="checkbox" id="showHide1" name="">Show password
+					<span id="conPasswordError"></span>
+				</td>
+			</tr>
+			<tr>
+				<td>Gender:</td>
+				<td>
+					<input type="radio" name="male" id="male">Male
+					<input type="radio" name="female" id="female">Female
+					<span id="genderError"></span>
+				</td>
+			</tr>
+			<tr>
+				<td>City:</td>
+				<td>
+					<select id="city">
+						<option value="">Select City</option>
+						<option value="dhaka">Dhaka</option>
+						<option value="chattogram">Chattogram</option>
+						<option value="sylhet">Sylhet</option>
+						<option value="khulna">Khulna</option>
+					</select>
+					<span id="cityError"></span>
+				</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td>
+					<!-- <button type="submit" class="btn btn-primary" value="Submit">Submit</button> -->
+					<input type="submit" value="submit">
+				</td>
+			</tr>
+
+
+		</table>
+	</form>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="script.js"></script>
+
+
+</body>
+</html>
